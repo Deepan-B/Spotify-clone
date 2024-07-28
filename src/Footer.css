@@ -1,0 +1,146 @@
+.footer {
+  color: wheat;
+}
+
+.footer__center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+    cursor: pointer;
+  }
+
+  .footer-icons{
+    font-size: 30px;
+  }
+
+.footer__left {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.song_disp{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.footer__right{
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 3px;
+}
+
+.loop.active {
+    color: green;
+  }
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 24px;
+}
+
+.song_disp img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.song_disp,.names,.name{
+    box-sizing: border-box;
+}
+
+.name{
+    margin: 0;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 720px) {
+    .song_player{
+        position: absolute;
+      left: 35%;
+      bottom: 0px;
+      width: 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer__right {
+      display: none;
+    }
+
+    .run-time , .total-time{
+        display: none;
+    }
+
+    .footer__center > svg{
+        display: none;
+    }
+    .footer__center{
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30%;
+    }
+    .song_player{
+        right: 10%;
+        position: absolute;
+        bottom: 0px;
+        width: 30%;
+    }
+    .slider > span{
+        position: absolute;
+        bottom: 0px;
+        padding: 0;
+        width: 100vw;
+        right: -70px;
+    }
+    .footer-icons{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slider > span{
+        position: absolute;
+        bottom: 0px;
+        padding: 0;
+        width: 100vw;
+        right: -32px;
+    }
+
+    .footer-icons{
+        font-size: 40px;
+    }
+
+    .footer__center{
+        gap: 10px;
+        position: absolute;
+        bottom: 13px;
+        right: -20px;
+    }
+
+    .next , .prev{
+        display: none;
+    }
+}
+
+

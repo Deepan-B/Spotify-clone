@@ -1,0 +1,41 @@
+:root{
+    --bgcolor : #121212;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.3);
+    /* opacity: 0; */
+}
+
+

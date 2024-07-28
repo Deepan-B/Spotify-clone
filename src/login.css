@@ -1,0 +1,40 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ED760;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.login>img{
+    height: 60%;
+}
+
+.login>a{
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 100px;
+    padding: 15px;
+    margin-top: 4%;
+    margin-bottom: 10vh;
+}
+
+.login>p{
+    height: 40px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+
+
+
+

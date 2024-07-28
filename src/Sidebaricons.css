@@ -1,0 +1,32 @@
+.sidebaricons{
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    height: 35%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.sidebaricons:hover{
+    color: white;
+}
+
+.sidebaricons__icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* @media screen and (min-width: 600px) {
+    .sidebaricons {
+      font-size: 20px;
+      font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .sidebaricons {
+      font-size: 12px;
+    }
+} */

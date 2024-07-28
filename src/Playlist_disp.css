@@ -1,0 +1,27 @@
+.playlist_disp{
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    border-radius: 5px;
+}
+
+.playlist_disp>img{
+    height: 15%;
+    width: 15%;
+    object-fit: contain;
+    margin-right: 8%;
+    border-radius: 6px;
+}
+
+
+.playlist_disp:hover{
+    background-color: #302f2f;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 600px) {
+    .playlist_disp>p{
+      display: none;
+    }
+  } */
+

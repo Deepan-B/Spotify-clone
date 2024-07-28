@@ -1,0 +1,87 @@
+.songs{
+    color: white;
+    height: 68%;
+    
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    margin: 2%;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex: 0.5; */
+    gap: 13px;
+    box-sizing: border-box;
+    height: 7vh;
+    /* padding: 2px; */
+}
+
+.song>img{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.song_wrap:hover{
+    background-color: #302f2f;
+    cursor: pointer;
+
+}
+
+.song_wrap>p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song_wrap{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 7vh;
+    color: grey;
+    font-size: 13px;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+
+@media screen and (max-width: 720px) {
+    .movie {
+      display: none;
+    }
+    .song_right{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 720px) {
+.song_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 2px;
+}
+}
+
+.artist{
+    display: flex;
+    flex-direction: column;
+}
+
+.artist>p{
+    margin: 0;
+    display: inline;
+}
+
+.text{
+    color: white;
+    font-size: 15px;
+}
