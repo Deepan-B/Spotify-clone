@@ -1,6 +1,6 @@
 const client_id ="cff1435933304f819d28aaff9f524573";
 
-const redirect_link ='http://localhost:3000/'
+const redirect_link ='https://spotify-clone-jet-iota.vercel.app/'
 
 const end_point ="https://accounts.spotify.com/authorize"
 
